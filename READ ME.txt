@@ -1,0 +1,27 @@
+'ArcFade 1.0 By:Arc 12/2/01
+'ArcSoftwareDesign@Hotmail.com
+
+'This is the first Fader.Bas that I have seen, that does this.
+
+'The PulseBackFade will fade any Object
+'including(Forms,Labels,Buttons,Pictureboxes, any Object
+'in VB that has a BackColor property.
+'The PulseForeFade will fade any Object
+'including(Forms,Labels,Buttons,Pictureboxes, any Object
+'in VB that has a ForeColor property.
+'The PulseFades fade your Objects from one color to another
+'and then back again.
+
+'Example of use:
+'PulseBackFade 255,0,34,134,234,23,Label1,0.3,10
+' THe first 3 numbers are your first color in RGB value. Red From 0-255,
+'Green from 0-255,Blue from 0-255. The next 3 numbers are your second color.
+'Then you have the object you want to fade.
+'Then you set the Fade speed
+'Then you set how much you want the color to change with each loop.
+'For example: Setting Step to 1 will provide a much smoother fade then
+'setting Step to 40. This also effects the speed of the fade.
+
+'To see the Color Values in the 3 labels Uncomment the Lines in the Subs
+
+'Give credit where it is due. If you adapt this or add to it Add my name and e-mail address please.
